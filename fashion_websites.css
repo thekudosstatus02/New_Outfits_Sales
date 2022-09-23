@@ -1,0 +1,206 @@
+.main{
+  display: flex;
+}
+.left
+{
+  width:20%;
+}
+.list a
+{
+  margin: 10px;
+  display: block;
+  color:grey;
+  text-decoration: none;
+  font-size: 22px;
+}
+#jean{
+margin: 10px;
+display: block;
+color:grey;
+text-decoration: none;
+font-size: 22px;
+}
+.jeans{
+  display: none;
+}
+.jean:hover{
+  color: black;
+  background: lightgrey;
+}
+#jean:hover .jeans{
+  display: block;
+}
+.list a:hover{
+  color: black;
+  background: lightgrey;
+}
+.right{
+  width: 80%;
+  overflow: hidden;
+}
+.menu h2{
+  display: inline;
+}
+.menu a{
+  float:right;
+  color: grey;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.menu a:hover{
+  background-color: lightgrey;
+  color: black;
+}
+.main_image{
+  position:;
+}
+.main_image img{
+  width: 100%;
+}
+.shop{
+  background-color:red;
+  color:white;
+  padding:7px;
+}
+.shop:hover{
+  background-color: white;
+  color: black;
+}
+.new{
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  padding: 3px 40px;
+  color: #f1f1f1;
+  font-weight: bold;
+  font-size: 25px;
+}
+.short_images_1,.short_images_2{
+  display: flex;
+  width: 100%;
+}
+.short_images_1 div,.short_images_2 div{
+  margin: 10px;
+  width: 25%;
+  box-shadow: 0px 0px 10px grey;
+}
+.short_images_1 div img,.short_images_2 div img{
+  width: 100%;
+}
+.subscribe{
+  padding: 50px;
+  color: white;
+  background-color: black;
+}
+.subscribe button{
+  background-color: red;
+  padding: 12px;
+}
+.subscribe input{
+  padding: 7px;
+  width: 70%;
+}
+.know_us{
+  display: flex;
+}
+.know_us div{
+  width: 34%;
+}
+.contact input{
+  margin:10px;
+}
+.subscribe_button{
+  background-color: red;
+  color: #fff;
+}
+.subscribe_button:hover{
+  background-color: white;
+  color: black;
+}
+#send{
+  background-color:black;
+  color:white;
+  padding:3px 17px 3px 17px;
+}
+#send:hover{
+  background-color: white;
+  color: #333;
+}
+.about ul li a{
+  color:black;
+}
+#tags{
+  margin:10px;
+}
+#tags a{
+  color:black;
+}
+.footer{
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+.footer a{
+  color: #fff;
+}
+.left_menu{
+  display: none;
+}
+.lists{
+  width: 30%;
+  display: none;
+  position: absolute;
+  right: 20px;
+  background-color:white;
+}
+.lists a{
+  display: block;
+  color: grey;
+  text-decoration: none;
+  margin: 3px;
+}
+.lists a:hover{
+  background-color: lightgrey;
+  color: black;
+}
+.bar1,.bar2,.bar3{
+  background-color: white;
+  height: 3px;
+  width: 20px;
+  margin:4px;
+}
+@media only screen and (max-width:700px) {
+  .main{
+    display: inline;
+  }
+  .short_images_1,.short_images_2{
+    display: block;
+    width: 100%;
+  }
+  .short_images_1 div,.short_images_2 div{
+    width:100%;
+  }
+  .left{
+    display: none;
+  }
+  .left_menu{
+    display: block;
+  }
+  .right{
+    width:100%;
+  }
+  .menu_bar:hover .lists{
+    display: block;
+  }
+  .new{
+    position: absolute;
+    left: 7%;
+    top: 20%;
+    padding: 0px 20px;
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 15px;
+  }
+}

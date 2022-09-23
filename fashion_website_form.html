@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form</title>
+    <style media="screen">
+      .inputs {
+        padding-left: 35%;
+        padding-right: 35%;
+      }
+      .inputs input{
+        margin:15px;
+      }
+      .image img{
+        border:none;
+        box-shadow:0px 0px 9px grey;
+      }
+    </style>
+    <script src="fashion_website_form_verify.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <form class=""action="fashion_website_form_signedUp.html" method="post" onsubmit="return validate()">
+    <div class="inputs">
+    <div class="image">
+      <img src="the weeknd3.jpg" alt="">
+    </div>
+    <div class="">
+      Name:<input id="name"type="text" name="name" value=""placeholder="name">
+    </div>
+    <div class="">
+      E-mail:<input id="email"type="email" name="email" value=""placeholder="e-mail">
+    </div>
+    <div class="">
+      Password<input id="pass"type="password" name="pass" value=""placeholder="password">
+    </div>
+    <div class="">
+      Mobile Number:<input id="mb"type="number" name="mb" value=""placeholder="mobile no.">
+    </div>
+    <div class="">
+      <div class="">
+        Gender:<br>
+        Male<input id="g1"class="gender"type="radio" name="gender" value="">
+        Female<input id="g2"class="gender"type="radio" name="gender" value="">
+      </div>
+    </div>
+    <div class="">
+      Interested:<br>
+      Outer-wear<input type="checkbox" name="ow" value="" id="i1">
+      Inner-wear<input type="checkbox" name="iw" value="" id="i2">
+      Gym-wear<input type="checkbox" name="gw" value="" id="i3">
+      Formals<input type="checkbox" name="for" value="" id="i4">
+    </div>
+    <div class="">
+      <input type="submit" name="" value="submit">
+    </div>
+    </div>
+    </form>
+  </body>
+</html>
